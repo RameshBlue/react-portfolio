@@ -7,21 +7,21 @@ function Footer() {
         <div className='flex flex-col items-center bg-black'>
             <div className='max-w-[1200px] w-[90%] py-[5rem]'>
 
-                <div className='flex justify-between'>
+                <div className='flex flex-col gap-6 sm:gap-0 sm:flex-row sm:justify-between'>
 
-                    <div className='flex flex-col gap-4 w-[50%]'>
-                        <h3 className='text-white font-bold'>
+                    <div className='flex flex-col gap-4 w-[90%] sm:w-[50%]'>
+                        <h2 className='text-white font-bold'>
                             RAMESH KRISHNAN
-                        </h3>
+                        </h2>
                         <p className='text-white text-[15px]'>
                             A Frontend React Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
                         </p>
                     </div>
 
                     <div className='flex flex-col gap-4'>
-                        <h3 className='text-white'>
+                        <h2 className='text-white'>
                             SOCIAL
-                        </h3>
+                        </h2>
                         <div className='flex gap-4'>
                             <FaLinkedinIn size={20} className='text-white cursor-pointer'/>
                             <FaGithub size={20} className='text-white cursor-pointer'/>

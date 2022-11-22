@@ -12,15 +12,19 @@
   }
 
   h2{
-    @apply font-bold text-[30px] text-gray-900
+    @apply font-bold text-[25px] text-gray-900
   }
 
   h3{
-    @apply font-bold text-[26px] text-gray-900
+    @apply font-semibold text-[18px] text-gray-900
+  }
+
+  h4{
+    @apply text-[20px] text-gray-600
   }
 
   p{
-    @apply text-[20px] text-gray-800
+    @apply text-[18px] text-gray-600
   }
 }
 
