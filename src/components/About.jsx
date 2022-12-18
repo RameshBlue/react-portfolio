@@ -15,8 +15,8 @@ function About() {
                 <h4>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h4>
             </div>
 
-            <div className='flex flex-col md:flex-row gap-16 md:gap-28 justify-center max-w-[1200px] w-[90%]'>
-                <div className='flex flex-col items-start gap-6 w-[90%] md:w-[50%]'>
+            <div className='flex flex-col md:flex-row  gap-16 md:gap-28 justify-center max-w-[1200px] w-[90%]'>
+                <div className='flex flex-col items-start gap-6 md:w-[50%]'>
                     <h2>Get to know me!</h2>
                     <div className='flex flex-col gap-3'>
                         <p>
@@ -25,7 +25,7 @@ function About() {
                         </p>
 
                         <p>
-                            I'm quietly confident, naturally curious, and perpetually working on improving myself. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+                            I'm quietly confident, naturally curious, and perpetually working on improving myself. I love coding, web platform, and enjoy bringing ideas to life in the browser. Adaptive to collabrative work environment, finding solutions and determining customer satisfaction.
                         </p>
 
                         <p>
@@ -37,9 +37,9 @@ function About() {
                     <Link to='CONTACT' smooth={true} offset={-100} className='button'>CONTACT</Link>
                 </div>
 
-                <div className='flex flex-col gap-6 w-[90%] md:w-[50%]'>
+                <div className='flex flex-col gap-6 md:w-[50%]'>
                     <h2>My Skills</h2>
-                    <div className='flex flex-wrap gap-4'>
+                    <div className='flex flex-wrap items-center gap-4'>
                         {
                             Skills.map((skill, index) => {
                                 return (

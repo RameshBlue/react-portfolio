@@ -1,33 +1,14 @@
 import React from 'react'
-import image from '../assets/projectTestImage.jpeg'
+import Calculator from '../assets/Calculator.png'
+import Todo from '../assets/Todo.png'
+import grid from '../assets/grid.png'
+import restaurant from '../assets/restaurant.png'
+import countries from '../assets/countries.png'
+import form from '../assets/form.png'
 
 const ProjectDatas = [
     {
-        imagePath: image,
-        title: "Calculator",
-        description: "This is recreated with the design from frontend mentor. Calculator can be used for performing basic mathematical operations like Addition, subtraction, multiplication, and division",
-        learning: "SCSS for styling, Sound implementation, Javascript string functions, CSS Grid basics",
-        webLink: "https://adorable-salmiakki-0132ae.netlify.app",
-        githubLink: "https://github.com/RameshBlue/calculator-app"
-    },
-    {
-        imagePath: image,
-        title: "Todo web application",
-        description: "This is recreated with the design from frontend mentor. This is a kind of app that generally used to maintain our day-to-day tasks",
-        learning: "Dark and light theme, Redux for state management",
-        webLink: "https://bucolic-dusk-9a840b.netlify.app",
-        githubLink: "https://github.com/RameshBlue/todo-app"
-    },
-    {
-        imagePath: image,
-        title: "Testinomial grid",
-        description: "This is recreated with the design from frontend mentor. This challenge was perfect practice to test CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it",
-        learning: "TailwindCSS for styling",
-        webLink: "https://glistening-zabaione-4297c7.netlify.app",
-        githubLink: "https://github.com/RameshBlue/testinomial-grid-section"
-    },
-    {
-        imagePath: image,
+        imagePath: restaurant,
         title: "Chomp - Restaurant Website",
         description: "Chomp is a web template which is re-created with the template from webflow targeting the restaurant and food industry which anyone can use to present their business online. This also provides a beautiful e-commerce experience.",
         learning: "CSS Animations, Framer motion, React Router, Chakra Ui",
@@ -35,13 +16,45 @@ const ProjectDatas = [
         githubLink: "https://github.com/RameshBlue/restaurant-website"
     },
     {
-        imagePath: image,
+        imagePath: countries,
         title: "REST Countries API",
         description: "This is recreated with the design from frontend mentor. This project contains details about countries which gets fetched from rest countries api. This challenge was perfect practice to test Javascript skills.",
-        learning: "Typescript, Asynchronous coding, javascript fetch method",
+        learning: "Typescript, Asynchronous coding, javascript fetch method, Zustand state management",
         webLink: "https://transcendent-kleicha-35323d.netlify.app",
         githubLink: "https://github.com/RameshBlue/countries-website"
     },
+    {
+        imagePath: form,
+        title: "College application form",
+        description: "This is recreated with a design inspired from behance. This project was a experience in learning form validation with react.",
+        learning: "Form Validation, Formik, Yup",
+        webLink: "https://legendary-douhua-f45b4c.netlify.app",
+        githubLink: "https://github.com/RameshBlue/student-application-form"
+    },
+    {
+        imagePath: grid,
+        title: "Testinomial grid",
+        description: "This is recreated with the design from frontend mentor. This challenge was perfect practice to test CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it.",
+        learning: "TailwindCSS for styling",
+        webLink: "https://glistening-zabaione-4297c7.netlify.app",
+        githubLink: "https://github.com/RameshBlue/testinomial-grid-section"
+    },
+    {
+        imagePath: Todo,
+        title: "Todo web application",
+        description: "This is recreated with the design from frontend mentor. This is a kind of app that generally used to maintain our day-to-day tasks.",
+        learning: "Dark and light theme, Redux for state management",
+        webLink: "https://bucolic-dusk-9a840b.netlify.app",
+        githubLink: "https://github.com/RameshBlue/todo-app"
+    },
+    {
+        imagePath: Calculator,
+        title: "Calculator",
+        description: "This is recreated with the design from frontend mentor. Calculator can be used for performing basic mathematical operations like Addition, subtraction, multiplication, and division.",
+        learning: "SCSS for styling, Sound implementation, Javascript string functions, CSS Grid basics",
+        webLink: "https://adorable-salmiakki-0132ae.netlify.app",
+        githubLink: "https://github.com/RameshBlue/calculator-app"
+    }
 ]
 
 function Projects() {

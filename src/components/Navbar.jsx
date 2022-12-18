@@ -34,7 +34,7 @@ function Navbar() {
                 <div className='relative w-14 h-14 rounded-full overflow-hidden'>
                     <img src={MyImage} className='absolute top-0 left-[-85px] w-[220px] max-w-none h-fit' alt="myImage" />
                 </div>
-                <div className='text-gray-700 font-bold text-lg cursor-pointer hover:text-yellow-400 duration-300'>RAMESH KRISHNAN</div>
+                <Link to='HOME' smooth = {true} offset={-120} className='text-gray-700 font-bold text-lg cursor-pointer hover:text-yellow-400 duration-300'>RAMESH KRISHNAN</Link>
             </div>
 
             <div className='xs:hidden md:flex gap-6'>
