@@ -23,8 +23,12 @@ function Footer() {
                             SOCIAL
                         </h2>
                         <div className='flex gap-4'>
-                            <FaLinkedinIn size={20} className='text-white cursor-pointer'/>
-                            <FaGithub size={20} className='text-white cursor-pointer'/>
+                            <FaLinkedinIn size={20} className='text-white cursor-pointer' onClick={()=>{
+                                window.open("https://www.linkedin.com/in/ramesh-krishnan-6a5b91202/","_blank");
+                            }}/>
+                            <FaGithub size={20} className='text-white cursor-pointer' onClick={()=>{
+                                window.open("https://github.com/RameshKrishnan109","_blank");
+                            }}/>
                         </div>
                     </div>
 
