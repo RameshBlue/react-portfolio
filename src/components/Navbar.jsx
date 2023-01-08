@@ -55,11 +55,11 @@ function Navbar() {
 
             {
                 nav &&
-                <div className='xs:block md:hidden absolute flex flex-col left-0 top-0 mt-[100px] w-full shadow-lg  bg-white z-10'>
+                <div className='md:hidden absolute xs:flex flex-col left-0 top-0 mt-[100px] w-full shadow-lg  bg-white z-10'>
                     {
                         Links.map((link) => {
                             return (
-                                <div key={link.id} className={`font-bold text-[15px] px-6 py-6 ${link.id === 1 && 'border-t border-t-gray-300'} border-b border-solid border-b-gray-300 text-gray-700 cursor-pointer hover:text-yellow-400 duration-300`}>{link.name}</div>
+                                 <Link key={link.id} to={link.name} smooth={true} offset={link.name == "CONTACT" ? -100 : -120} className={`font-bold text-[15px] px-6 py-6 ${link.id === 1 && 'border-t border-t-gray-300'} border-b border-solid border-b-gray-300 text-gray-700 cursor-pointer hover:text-yellow-400 duration-300`} onClick={()=>{setNav(false)}}>{link.name}</Link>
                             )
                         })
                     }
