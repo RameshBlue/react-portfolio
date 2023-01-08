@@ -13,7 +13,7 @@ const ProjectDatas = [
         description: "Chomp is a web template which is re-created with the template from webflow targeting the restaurant and food industry which anyone can use to present their business online. This also provides a beautiful e-commerce experience.",
         learning: "CSS Animations, Framer motion, React Router, Chakra Ui",
         webLink: "https://merry-pegasus-e54281.netlify.app",
-        githubLink: "https://github.com/RameshBlue/restaurant-website"
+        githubLink: "https://github.com/RameshKrishnan109/restaurant-website"
     },
     {
         imagePath: countries,
@@ -21,7 +21,7 @@ const ProjectDatas = [
         description: "This is recreated with the design from frontend mentor. This project contains details about countries which gets fetched from rest countries api. This challenge was perfect practice to test Javascript skills.",
         learning: "Typescript, Asynchronous coding, javascript fetch method, Zustand state management",
         webLink: "https://transcendent-kleicha-35323d.netlify.app",
-        githubLink: "https://github.com/RameshBlue/countries-website"
+        githubLink: "https://github.com/RameshKrishnan109/countries-website"
     },
     {
         imagePath: form,
@@ -29,7 +29,7 @@ const ProjectDatas = [
         description: "This is recreated with a design inspired from behance. This project was a experience in learning form validation with react.",
         learning: "Form Validation, Formik, Yup",
         webLink: "https://legendary-douhua-f45b4c.netlify.app",
-        githubLink: "https://github.com/RameshBlue/student-application-form"
+        githubLink: "https://github.com/RameshKrishnan109/student-application-form"
     },
     {
         imagePath: grid,
@@ -37,7 +37,7 @@ const ProjectDatas = [
         description: "This is recreated with the design from frontend mentor. This challenge was perfect practice to test CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it.",
         learning: "TailwindCSS for styling",
         webLink: "https://glistening-zabaione-4297c7.netlify.app",
-        githubLink: "https://github.com/RameshBlue/testinomial-grid-section"
+        githubLink: "https://github.com/RameshKrishnan109/testinomial-grid-section"
     },
     {
         imagePath: Todo,
@@ -45,7 +45,7 @@ const ProjectDatas = [
         description: "This is recreated with the design from frontend mentor. This is a kind of app that generally used to maintain our day-to-day tasks.",
         learning: "Dark and light theme, Redux for state management",
         webLink: "https://bucolic-dusk-9a840b.netlify.app",
-        githubLink: "https://github.com/RameshBlue/todo-app"
+        githubLink: "https://github.com/RameshKrishnan109/todo-app"
     },
     {
         imagePath: Calculator,
@@ -53,7 +53,7 @@ const ProjectDatas = [
         description: "This is recreated with the design from frontend mentor. Calculator can be used for performing basic mathematical operations like Addition, subtraction, multiplication, and division.",
         learning: "SCSS for styling, Sound implementation, Javascript string functions, CSS Grid basics",
         webLink: "https://adorable-salmiakki-0132ae.netlify.app",
-        githubLink: "https://github.com/RameshBlue/calculator-app"
+        githubLink: "https://github.com/RameshKrishnan109/calculator-app"
     }
 ]
 
